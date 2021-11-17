@@ -8,3 +8,11 @@
 5. Add interactivity, `onTap` on **ListTile**
 6. Add routes `MaterialPageRoute`
 7. customize theme
+
+## Build app from scratch
+
+1. create new project scaffold
+2. remove everything and add `materialApp` boilerplate
+3. Add UI for composing chat
+4. consume API in flutter using BloC Pattern
+5. Add/remove dependencies to project
