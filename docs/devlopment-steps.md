@@ -1,5 +1,7 @@
 # Development Workflow
 
+> Not managing states properly is one of the major SINs of softeware Development
+
 1. Identify states and dynamic content in your web apps
 2. Seperate static from dynamic
 3. Introduce state boilerplate using snippet
@@ -16,3 +18,11 @@
 3. Add UI for composing chat
 4. consume API in flutter using BloC Pattern
 5. Add/remove dependencies to project
+
+## Enterprise app
+
+```
+mkdir -pv ./lib/{bloc,model,pages,repository,style,widgets}
+```
+
+Enter the reactive programming concepts
