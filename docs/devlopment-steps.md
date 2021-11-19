@@ -23,6 +23,17 @@
 
 ```
 mkdir -pv ./lib/{bloc,model,pages,repository,style,widgets}
+flutter packages get
 ```
 
 Enter the reactive programming concepts
+
+| item          | description                                                      |
+| ------------- | ---------------------------------------------------------------- |
+| BlocOverrides | facility constructor to override observers for all state changes |
+
+- top level page widget is `stateless`
+- `stateful` widgets are inside sttateless widgets
+- Page widget has a `BlocProvider` inside build method
+
+![BloC wiring](img/flutter-widgets-hierarchy.png)
