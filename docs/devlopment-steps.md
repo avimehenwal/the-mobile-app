@@ -37,3 +37,7 @@ Enter the reactive programming concepts
 - Page widget has a `BlocProvider` inside build method
 
 ![BloC wiring](img/flutter-widgets-hierarchy.png)
+
+### Examples
+
+- https://github.com/TheWCKD/blocFromZeroToHero

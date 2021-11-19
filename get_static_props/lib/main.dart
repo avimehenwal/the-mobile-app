@@ -49,12 +49,12 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  late Future<Album> futureAlbum;
+  late Future<Album> getFutureAlbum;
 
   @override
   void initState() {
     super.initState();
-    futureAlbum = fetchAlbum();
+    getFutureAlbum = fetchAlbum();
   }
 
   @override
@@ -70,7 +70,7 @@ class _MyAppState extends State<MyApp> {
         ),
         body: Center(
           child: FutureBuilder<Album>(
-            future: futureAlbum,
+            future: getFutureAlbum,
             builder: (context, snapshot) {
               if (snapshot.hasData) {
                 return Text(snapshot.data!.title);
