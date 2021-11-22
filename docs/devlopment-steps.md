@@ -24,6 +24,10 @@
 ```
 mkdir -pv ./lib/{bloc,model,pages,repository,style,widgets}
 flutter packages get
+mkdir -pv {core/constants,core/exceptions,core/themes}
+mkdir -pv {data/http,data/models,data/repositories}
+mkdir -pv {logic/bloc,logic/cubit,logic/debug}
+mkdir -pv {presentation/router,presentation/screens}
 ```
 
 Enter the reactive programming concepts
